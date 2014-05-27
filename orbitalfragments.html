@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ORBITAL FRAGMENTS</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.18/paper-full.js"></script>
+	<script type="text/paperscript" canvas="canvas" src="./js/orbitalfragments.js"></script>
+</head>
+<body>
+	<section id="menu">
+		<h1>ORBITAL FRAGMENTS</h1>
+		<ul>
+		<li><a class="initOrbits" offset="1" velocity="0">TYPE A</a></li>
+		<li><a class="initOrbits" offset="0.99" velocity="0.009">TYPE B</a></li>
+		<li><a class="initOrbits" offset="0.9" velocity="0.09">TYPE C</a></li>
+		<li><a class="initOrbits" offset="0.9" velocity="0.5">TYPE D</a></li>
+		<li><a class="initOrbits" offset="0.5" velocity="1.0">TYPE E</a></li>
+		</ul>
+	</section>
+	<canvas id="canvas" resize width="1280" height="720" style="background:black" style="-webkit-user-select: none; -webkit-user-drag: none;"></canvas>
+</body>
+</html>
